@@ -330,7 +330,7 @@
   <project name="android_hardware_amlogic_touch" path="hardware/amlogic/touch" revision="f432bdc3c2f4804f97dbfa77b7e92fcec6133880"/>
   <project name="android_hardware_amlogic_usbctrl" path="hardware/amlogic/usbctrl" revision="d180f7192127cc9cbe505f21ac8ffe8e494fc473"/>
   <project name="android_hardware_amlogic_wifi" path="hardware/amlogic/wifi" revision="b8b82dc87e9c1e74c0a07fbdcb2cfb28a259d660"/>
-  <project name="android_hardware_arm_gpu" path="hardware/arm/gpu" revision="4a45481151ff215ed5d5f2b74d23b9e620aa1e88"/>
+  <project name="android_hardware_arm_gpu" path="hardware/arm/gpu" revision="Nougat" remote="aaml"/>
   <project name="android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" revision="c946538fa03022ea3bb30dc4525acdc5b888e3f3"/>
   <project name="android_hardware_bsp_intel" path="hardware/bsp/intel" revision="558d3e3108966a320b5ccfefd2a6c4c595976b82"/>
   <project name="android_hardware_google_apf" path="hardware/google/apf" revision="f9491fa2795120de428ffcea3a113616b63644f3"/>
