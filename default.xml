@@ -299,7 +299,7 @@
   <project name="android_frameworks_opt_net_ethernet" path="frameworks/opt/net/ethernet" revision="57aea849a9b02433b459f4f6f1c3d72d8cc430ca"/>
   <project name="android_frameworks_opt_net_ims" path="frameworks/opt/net/ims" revision="dad940f3eeade411178c55eaed1fd10b1c4c9499"/>
   <project name="android_frameworks_opt_net_voip" path="frameworks/opt/net/voip" revision="3081e5a8b67bcb9cb4fc1dcf75ce1f3faf7d547f"/>
-  <project name="android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" revision="4da98e32a7c53663b1af4d979b27df214a3d3b46"/>
+  <project name="android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" revision="Nougat" remote="aaml"/>
   <project name="android_frameworks_opt_photoviewer" path="frameworks/opt/photoviewer" revision="67db0fe775735f2414b5e82a478b434680ab7b23"/>
   <project name="android_frameworks_opt_setupwizard" path="frameworks/opt/setupwizard" revision="21ce0a0684aeb04cbf18e887df84ab9f42432b16"/>
   <project name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" revision="86dd3d2269bc264138cc314b349864dfd8cb115a"/>
