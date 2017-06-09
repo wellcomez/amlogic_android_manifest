@@ -2,18 +2,18 @@
 <manifest>
   <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android-review.googlesource.com/"/>
   <remote fetch="https://github.com/khadas/" name="github"/>
-  <remote fetch="https://github.com/ilikenwf/" name="ilikenwf"/>
+  <remote fetch="https://github.com/Android-Amlogic/" name="aaml"/>
   
   <default remote="github" revision="refs/heads/Nougat" sync-j="12"/>
   
   <project name="android_vendor_amlogic_apps_IrBlaster" path="vendor/amlogic/apps/IrBlaster" revision="fab61fd332ea3bb4ccba6791a3df0c1d4c1dea31"/>
-  <project name="android_device_amlogic" path="device/amlogic" revision="master" remote="ilikenwf"/>
-  <project name="linux" path="common" revision="dce829754da331380b36be55472af7e79859dcb4"/>
+  <project name="android_device_amlogic" path="device/amlogic" revision="master" remote="aaml"/>
+  <project name="linux" path="common" revision="Nougat" remote="aaml"/>
   <project name="android_abi_cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989"/>
   <project name="android_art" path="art" revision="12eb0c532e33ca5d5e98addd580b5ad0a4b71be4"/>
   <project name="android_bionic" path="bionic" revision="501f22e6b9e0443341fbfffcdcfda7363b523d25"/>
   <project name="android_bootable_recovery" path="bootable/recovery" revision="58eda0ee0cd1e096b9bcd033febec5491fa71442"/>
-  <project name="android_build" path="build" revision="1cb1978512fbc22cf1b0d7e3bd93a2607b050ef1">
+  <project name="android_build" path="build" revision="Nougat" remote="aaml">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project name="android_build_blueprint" path="build/blueprint" revision="3a89d1ce9fe7a5160ee87ee11f99edbf540020fc"/>
