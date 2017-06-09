@@ -69,7 +69,7 @@
   <project name="android_hardware_amlogic_tv_input" path="hardware/amlogic/tv_input" revision="a5f6fd922a51f2f557b79c90f9635fc0135d7c1e"/>
   <project name="android_hardware_amlogic_usbctrl" path="hardware/amlogic/usbctrl" revision="d180f7192127cc9cbe505f21ac8ffe8e494fc473"/>
   <project name="android_hardware_amlogic_wifi" path="hardware/amlogic/wifi" revision="b6709758755568e4a0ff6e80993be0fc64c77fb9"/>
-  <project name="android_hardware_arm_gpu" path="hardware/arm/gpu" revision="80b0645cede9af580b7d7a6feda711833a0fabc3"/>
+  <project name="android_hardware_arm_gpu" path="hardware/arm/gpu" revision="Vim" remote="aaml"/>
   <project name="android_hardware_libhardware" path="hardware/libhardware" revision="8bc7970c23a40922c961b74c16ccabacc000c2d4"/>
   <project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" revision="543efaec701117543a31c0d816419ada85b1c77e"/>
   <project name="android_hardware_qcom_bt" path="hardware/qcom/bt" revision="e8a52ad8b0f847af2657948a9ed86776930d1f66"/>
