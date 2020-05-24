@@ -29,6 +29,11 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Run a multi-line script
       run: |
-        repo sync
+        mkdir build
+        cd build
+        curl https://storage.googleapis.com/git-repo-downloads/repo > repo
+        chmod +x repo
+        ./repo  init -u https://github.com/Android-Amlogic/amlogic_android_manifest.git -b Mmallow
+        ./repo sync -c -j5
         make
         echo test, and deploy your project.
